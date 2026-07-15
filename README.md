@@ -262,25 +262,7 @@ It is not a replacement for Git or backups. It is a practical safety layer for t
 - **API integration:** paste an API snippet, let the agent build a working example, and store the pattern for future use.
 - **Client/project isolation:** keep memory, secrets, instructions, files, and model choices separated by project.
 - **Scheduled operations:** run recurring checks and monitoring tasks with project-scoped context and credentials.
-
-## Documentation
-
-| I want to... | Start here |
-| --- | --- |
-| Install or update Agent Zero | [Installation](./docs/setup/installation.md) |
-| Learn the UI and basic workflow | [Quickstart](./docs/quickstart.md) |
-| Browse, annotate, and use Browser screenshots | [Browser guide](./docs/guides/browser.md) |
-| Use the Linux desktop and LibreOffice | [Desktop guide](./docs/guides/desktop.md) |
-| Connect Agent Zero to host-machine files and shell | [A0 CLI Connector](https://www.agent-zero.ai/p/docs/a0-cli-connector/) |
-| Use projects and Git workspaces | [Projects guide](./docs/guides/projects.md) |
-| Create a small plugin | [Create a Small Plugin](./docs/guides/create-plugin.md) |
-| Add or remove active skills | [Skills guide](./docs/guides/skills.md) |
-| Create or switch Agent Profiles | [Agent Profiles](./docs/guides/agent-profiles.md) |
-| Create or switch Model Presets | [Model Presets](./docs/guides/model-presets.md) |
-| Manage and curate memories | [Memory guide](./docs/guides/memory.md) |
-| Learn the everyday chat controls | [Usage guide](./docs/guides/usage.md) |
-| Configure MCP or external tools | [MCP setup](./docs/guides/mcp-setup.md) |
-| Understand the architecture and internals | [DeepWiki for Agent Zero](https://deepwiki.com/agent0ai/agent-zero) |
+ and internals | [DeepWiki for Agent Zero](https://deepwiki.com/agent0ai/agent-zero) |
 | Build an advanced extension | [Extensions](./docs/developer/extensions.md) |
 | Contribute to the project | [Contributing](./docs/guides/contribution.md) |
 | Troubleshoot problems | [Troubleshooting](./docs/guides/troubleshooting.md) |
@@ -290,24 +272,7 @@ It is not a replacement for Git or backups. It is a practical safety layer for t
 Agent Zero is built for people who want to understand and shape their tools.
 
 You can help by improving docs, creating skills, publishing plugins, testing model/provider setups, reporting bugs, sharing workflows, or contributing core improvements. Start with the [Contributing guide](./docs/guides/contribution.md), browse the [Plugin Hub](https://www.agent-zero.ai/p/docs/plugins/#plugin-hub), or bring ideas to Discord.
-
-## Community and Support
-
-- [Discord](https://discord.gg/B8KZKNsPpj) for live discussion and help.
-- [Skool Community](https://www.skool.com/agent-zero) for community learning.
-- [YouTube](https://www.youtube.com/@AgentZeroFW) for demos and tutorials.
-- [X](https://x.com/Agent0ai), [LinkedIn](https://www.linkedin.com/company/109758317), and [Warpcast](https://warpcast.com/agent-zero) for updates.
-- [GitHub Issues](https://github.com/agent0ai/agent-zero/issues) for bugs and feature requests.
-
-[Space Agent](https://github.com/agent0ai/space-agent) is the related, more polished product direction for the agent-shaped workspace. Agent Zero remains the open framework and Linux-powered workbench.
-
-## Safety Model
-
-Agent Zero is powerful because it can use a real environment.
-
-- Keep it running inside Docker or another isolated environment.
-- Do not mount your entire home directory unless you understand the risk.
-- Grant A0 CLI Read+Write access and remote code execution only for machines and workspaces you trust.
+ and workspaces you trust.
 - Store credentials in project secrets or settings, not in prompts or public files.
 - Review actions that touch accounts, money, production systems, or private data.
 - Keep backups for important workspaces.
